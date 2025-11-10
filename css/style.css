@@ -1,0 +1,41 @@
+body{
+    margin: 0 auto;
+   font-family: "Open Sans", sans-serif;;
+}
+.header{
+    background-image: url(../img/fon.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+   
+}
+.logo{
+    display: flex;
+    justify-content: center;
+    padding-top: 41px;
+}
+
+.slogan{
+    color: white;
+   display: flex;
+    flex-direction: column;
+    align-items: center;
+
+
+    
+}
+
+.center{
+    margin-top: 306px;
+   letter-spacing: 6px;
+    font-family: "Bebas Neue", sans-serif;
+    font-size: 60px;
+}
+.below{
+    font-size: 16px;
+}
+.bottom{
+margin-top: 221px;
+margin-bottom: 71px;
+font-size: 11px;
+}
+
