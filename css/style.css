@@ -2,7 +2,7 @@ body{
     margin: 0 auto;
    font-family: "Open Sans", sans-serif;;
 }
-.header{
+.page{
     background-image: url(../img/fon.jpg);
     background-size: cover;
     background-repeat: no-repeat;
