@@ -150,17 +150,56 @@ color: #fff;
 }
 
 
-.img-right{
-width: 33.3%;
+/* .hero-right{
+
+
+
+display: flex;
+justify-content: space-between;
 padding: 10px;
 box-sizing: border-box;
+background: url(../img/WE\ PLAN.jpg);
+
+} */
+
+.hero-right-row{
+    display: flex;
+    flex-wrap: wrap;
+    margin: -10px;
+}
+.hero-right-container{
+    padding: 10px;
+    width: 33.3%;
+    box-sizing: border-box;
+}
+
+.we{
+    padding: 15px 45px 151px 14px;  
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column; 
+     height: 100%;
+     
+}
+
+.we.we--p{
+   background: url(../img/WE\ PLAN.jpg); 
+   padding: 15px 45px 151px 14px;
+   box-sizing: border-box;
+}
+
+.we.we--m{
+    background: url(../img/WE\ MANAGE.jpg);
+  
+    
+}
 
 
+.we.we--b{
+    background: url(../img/WE\ BUILD.jpg);
 
 }
-.img-right img{
-    width: 100%;
-}
+
 
 
 .capabilities-df{
