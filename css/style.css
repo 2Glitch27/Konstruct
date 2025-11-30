@@ -21,12 +21,14 @@ a{
     background-image: url(../img/fon.jpg);
     background-size: cover;
     background-repeat: no-repeat;
+    background-size: 100%;
+    
    
 }
 .logo-page{
     display: flex;
     justify-content: center;
-    padding-top: 41px;
+    padding-top: 41px; 
 }
 
 .slogan{
@@ -34,6 +36,7 @@ a{
     display: flex;
     flex-direction: column;
     align-items: center;
+    justify-content: center;
 
 
     
@@ -61,12 +64,14 @@ a{
     width: 100%;
     background-color: white;
     border: 1px solid Gainsboro;
+    z-index: 10;
 }
 
 
 .header-position{
     display: flex;
     justify-content: space-between;
+    
     
 }
 
@@ -154,6 +159,7 @@ a{
     width: 50%;
     display: flex;
     flex-wrap: wrap;
+    position: relative;
 
 }
 
@@ -161,6 +167,7 @@ a{
 .hero-right-row{
     display: flex;
     flex-wrap: wrap;
+    
     margin: -10px;
 }
 .hero-right-container{
@@ -181,7 +188,7 @@ a{
    background: url(../img/WE\ PLAN.jpg); 
     background-size: cover;
     background-repeat: no-repeat;
-    justify-content:right;
+    
 
 }
 
@@ -245,8 +252,7 @@ a{
     padding: 12px 29px 11px;
     box-sizing: border-box;
     text-decoration: none;
-    cursor: pointer;
-    transition: 1s;
+    transition: background-color 1s;
 }
 
 .buttom-capabilities:hover{
@@ -463,3 +469,330 @@ display: flex;
     color: #fff;
     padding: 22px 0;
 }
+
+
+
+
+
+@media(max-width: 1440px) {
+   .page{
+     height: 600px;
+   }
+   .bottom{
+    margin-top: 150px;
+   }
+   .center{
+     margin-top: 200px;
+   }
+}
+
+@media(max-width: 1280px){
+     .page{
+     height: 550px;
+   }
+
+}
+
+
+
+
+@media(max-width: 1030px) {
+    .page{
+     height: 500px;
+   }
+   .container{
+     max-width: 840px;
+   }
+   .center{
+     margin-top: 150px;
+   }
+
+    .title::after { 
+    margin: 10px 0 0 400px;
+    }
+     .we{
+   font-size: 20px;
+   }
+}
+
+
+
+
+
+@media(max-width: 950px){
+    .page{
+     height: 400px;
+   }
+   .center{
+     margin-top: 60px;
+   }
+
+
+}
+
+
+
+
+
+@media(max-width: 900px){
+    .container{
+     max-width: 740px;
+   }
+    .center{
+        font-size: 45px;
+    }
+
+
+    .hero-right-container{
+    padding: 5px;
+    height: 80%;
+
+    } 
+    .title-capabilities{
+    font-size: 15px; 
+    }
+    .buttom-capabilities{
+    font-size: 12px;
+    }
+    .socials-column{
+    margin-right: 20px;
+    }
+    .socials-column-link{
+    margin: 0 20px 0 0;
+        
+    }
+    .title-capabilities{
+    font-size: 15px;
+    }
+    .desc-capabilities{
+    font-size: 10px;
+    }
+        .title::after {
+        margin: 10px 0 0 350px;
+    }
+}
+
+
+
+
+
+
+
+@media(max-width: 800px){
+    .container{
+     max-width: 700px;
+   }
+   .logo-page{
+    padding-top: 21px; 
+}
+   .page{
+     height: 350px;
+   }
+   .bottom{
+    margin-top: 120px;
+   }
+    .socials-column-link{
+    margin: 0 20px 0 0;
+    padding: 0;
+    }
+    .socials-column p{
+    font-size: 9px;  
+    }
+
+    .buttom-capabilities{
+    padding: 10px 15px 5px;
+    }
+        .title::after {
+        margin: 10px 0 0 320px;
+    }
+}
+
+
+@media(max-width: 768px){
+    .container{
+     max-width: 600px;
+   }
+
+   .page{
+     height: 300px;
+   }
+   .center{
+    letter-spacing: 3px;
+    font-size: 30px;
+}
+.below{
+    font-size: 14px;
+}
+   .bottom{
+    margin-top: 90px;
+   }
+ .title{
+    margin: 30px 0 45px 0;
+   }
+   .advantages-item-container{
+    width: 50%;
+    
+}
+.capabilities-df{
+    display: block
+}
+.desc-capabilities{
+    font-size: 15px;
+    margin-bottom: 10px;
+}
+
+ 
+.hero-right-row{
+    display: flex;
+    flex-wrap: wrap;
+    margin: -10px;
+}
+.hero-right-container{
+    padding: 10px;
+    width: 50%;
+    box-sizing: border-box;
+    height: auto;
+}
+
+    .title::after {
+        margin: 10px 0 0 280px;
+    }
+
+}
+
+
+@media(max-width: 700px){
+
+     .container{
+     max-width: 500px;
+   }
+  
+   .menu{
+    gap: 20px;
+}
+   .socials-box{
+    flex-direction: column;
+    padding:10px;
+    }
+    .socials-link{
+        font-size: 15px;
+    }
+    .socials-column p{
+    font-size: 15px;
+    
+}
+.newsletter{
+    font-size: 10px;
+}
+.newsletter-title{
+    margin-right: 40px;
+}
+ .title::after {
+        margin: 10px 0 0 230px;
+    }
+}
+
+
+@media(max-width: 575px){
+     .container{
+     max-width: 450px;
+   }
+    
+    .page{
+     height: 250px;
+   }
+   .bottom{
+    margin-top: 50px;
+   }
+   .newsletter-button{
+    font-size: 10px;
+    padding: 11px 25px;
+   }
+
+.we{
+    padding: 20px 50px 155px 20px;  
+    box-sizing: border-box;
+    height: 100%;
+}
+.hero-title{
+ 
+    font-size: 20px;
+    
+    margin-bottom: 30px;
+}
+
+.hero-desc{
+    font-size: 13px;
+    
+}
+.hero-row{
+    flex-direction: column;
+}
+.hero-right-container{
+   
+    width: 33.3%;
+    
+}
+.hero-left{
+    width: 100%;
+}
+.hero-right{
+    width: 100%;
+}
+.title::after {
+        margin: 10px 0 0 200px;
+    }
+}
+
+@media(max-width: 500px){
+    .page{
+     height: 200px;
+   }
+   .bottom{
+    margin-top: 20px;
+   }
+    .container{
+     max-width: 400px;
+   }
+   .menu{
+    display: none;
+   }
+   .title::after {
+        margin: 10px 0 0 175px;
+    }
+    .newsletter-title{
+        font-size: 16px;
+    }
+    .newsletter-row{
+        padding: 15px 0 10px 0;
+    }
+
+}
+
+@media(max-width: 430px){
+    .page{
+     height: 150px;
+   }
+   .bottom{
+    font-size: 10px;
+    margin-top: 10px;
+   }
+    .container{
+     max-width: 350px;
+   }
+       .socials-column-link {
+        margin: 0;
+        
+    }
+
+}
+
+
+
+
+
+
+
+
+
+
