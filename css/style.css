@@ -641,16 +641,8 @@ display: flex;
     margin-bottom: 10px;
 }
 
- 
-.hero-right-row{
-    display: flex;
-    flex-wrap: wrap;
-    margin: -10px;
-}
 .hero-right-container{
-    padding: 10px;
     width: 50%;
-    box-sizing: border-box;
     height: auto;
 }
 
@@ -689,6 +681,9 @@ display: flex;
 }
  .title::after {
         margin: 10px 0 0 230px;
+    }
+    .socials-box-fd{
+        flex-direction: row;
     }
 }
 
@@ -771,7 +766,7 @@ display: flex;
 
 @media(max-width: 430px){
     .page{
-     height: 150px;
+     height: 100px;
    }
    .bottom{
     font-size: 10px;
@@ -784,8 +779,23 @@ display: flex;
         margin: 0;
         
     }
+        .desc-capabilities {
+        width: 95%;
+        
+    }
+.hero-right-container{
+    width: 50%;
+}
+.advantages-item-container {
+        width: 100%;
+        
+    }
+    
 
 }
+
+
+
 
 
 
