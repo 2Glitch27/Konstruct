@@ -326,18 +326,16 @@ a{
     background: url(../img/bg.jpg);
     background-repeat: no-repeat;
     background-size: cover;
+    width: 100%;
+    height: 600px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
     
     
 }
 .aside-row{
     text-align: center;
-   
-    /* max-width: 1440px;
-    height: 500px;
-    object-fit: cover; */
-    
-    /* object-position: bottom; */
-
 }
 
 .aside-button{
@@ -357,7 +355,7 @@ a{
     line-height: 120%;
     letter-spacing: 0.01em;
     color: #48555b;
-    margin: 120px 0 35px 0;
+    /* margin: 120px 0 35px 0; */
 
 }
 
@@ -490,12 +488,16 @@ display: flex;
    .center{
      margin-top: 200px;
    }
+   /* .aside{
+    width: 1440px;
+   } */
 }
 
 @media(max-width: 1280px){
      .page{
      height: 550px;
    }
+
 
 }
 
